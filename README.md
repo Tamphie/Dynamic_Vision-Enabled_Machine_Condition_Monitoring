@@ -5,8 +5,8 @@ This article presents one of the pioneering attempts in the current literature o
 classification to perform diagnosis tasks. The article conducts experiments on diagnosing rotating machine faults using event-based cameras.
 ## Installation
 ```bash
-   git clone https://github.com/Tamphie/Dynamic_vision.git
-   cd faultNet
+git clone https://github.com/Tamphie/Dynamic_vision.git
+cd faultNet
 ```
 ## Usage
 ```bash
