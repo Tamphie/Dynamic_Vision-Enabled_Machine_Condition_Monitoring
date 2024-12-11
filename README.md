@@ -3,10 +3,12 @@ This article presents one of the pioneering attempts in the current literature o
 
 
 
-<div align="center">
+<p align="center">
   <img src="assets/experiment.png" alt="Experimental Setup" width="300">
-</div>
-**Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
+  <br />
+  <i>Figure 1: The experimental setup used to collect event-based data for fault diagnosis</i>
+</p>
+
 
 ## Setup Instructions
 
@@ -28,10 +30,12 @@ cd Dynamic_vision/faultNet
 - **`train_semseg.py`**: Script for semantic segmentation tasks (if applicable).
 
 
-<div align="center">
+<p align="center">
   <img src="assets/network_architecture.png" alt="Network Architecture" width="700">
-</div>
-**Figure 2:** The network architecture designed for classifying fault types
+  <br />
+  <i>Figure 2: The network architecture designed for classifying fault types</i>
+</p>
+
 
 ### Data Preprocessing
 - **`Generate_txt_*.py`**: Scripts for generating point cloud data files from event data for specific fault types (e.g., ball, healthy, inner race, outer race).
@@ -45,10 +49,12 @@ cd Dynamic_vision/faultNet
 - **`random_roi_fig.py`**: Creates figures of random regions of interest for visualization purposes.
   
 
-<div align="center">
+<p align="center">
   <img src="assets/random.png" alt="Random_Roi" width="300">
-</div>
-**Figure 3:** Visualization of randomly selected regions of interest (ROIs) from the dataset. These ROIs demonstrate the spatial distribution of event data points captured by the dynamic vision sensor.
+  <br />
+  <i> Figure 3: Visualization of randomly selected regions of interest (ROIs) from the dataset. These ROIs demonstrate the spatial distribution of event data points captured by the dynamic vision sensor.</i>
+<p>
+
 
 ### Utility Scripts during Experiments
 - **`obtain_file_names.py`**: Helper script for managing file names and paths.
