@@ -1,7 +1,9 @@
 # Dynamic Vision-Enabled Machine Condition Monitoring
 This article presents one of the pioneering attempts in the current literature on using a 3D point cloud data algorithm to process event data for machine fault diagnosis. A geometric data structure is proposed to represent event information and a deep learning method on point cloud data is employed for classification to perform diagnosis tasks. The article conducts experiments on diagnosing rotating machine faults using event-based cameras.
 
-![Experimental Setup](assets/experiment.png)
+
+<img src="assets/network_architecture.png" alt="Network Architecture" width="600">
+
 **Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
 
 ## Setup Instructions
