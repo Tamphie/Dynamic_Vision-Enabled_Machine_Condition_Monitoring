@@ -2,8 +2,10 @@
 This article presents one of the pioneering attempts in the current literature on using a 3D point cloud data algorithm to process event data for machine fault diagnosis. A geometric data structure is proposed to represent event information and a deep learning method on point cloud data is employed for classification to perform diagnosis tasks. The article conducts experiments on diagnosing rotating machine faults using event-based cameras.
 
 
-<img src="assets/network_architecture.png" alt="Network Architecture" width="600">
 
+<div align="center">
+  <img src="assets/experiment.png" alt="Experimental Setup" width="600">
+</div>
 **Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
 
 ## Setup Instructions
@@ -39,7 +41,10 @@ cd Dynamic_vision/faultNet
 - **`fft.py`**: Computes Fast Fourier Transform for frequency-domain analysis.
 - **`random_roi_fig.py`**: Creates figures of random regions of interest for visualization purposes.
   
-![Random_Roi](assets/random.png)
+
+<div align="center">
+  <img src="assets/random.png" alt="Random_Roi" width="300">
+</div>
 **Figure 3:** Visualization of randomly selected regions of interest (ROIs) from the dataset. These ROIs demonstrate the spatial distribution of event data points captured by the dynamic vision sensor.
 
 ### Utility Scripts during Experiments
