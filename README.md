@@ -4,7 +4,7 @@ This article presents one of the pioneering attempts in the current literature o
 
 
 <div align="center">
-  <img src="assets/experiment.png" alt="Experimental Setup" width="400">
+  <img src="assets/experiment.png" alt="Experimental Setup" width="350">
 </div>
 **Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
 
@@ -27,7 +27,10 @@ cd Dynamic_vision/faultNet
 - **`train_partseg.py`**: Script for part segmentation tasks (if applicable).
 - **`train_semseg.py`**: Script for semantic segmentation tasks (if applicable).
 
-![Network Architecture](assets/network_architecture.png)
+
+<div align="center">
+  <img src="assets/network_architecture.png" alt="Network Architecture" width="500">
+</div>
 **Figure 2:** The network architecture designed for classifying fault types
 
 ### Data Preprocessing
