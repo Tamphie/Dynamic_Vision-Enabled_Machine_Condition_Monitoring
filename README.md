@@ -4,7 +4,7 @@ This article presents one of the pioneering attempts in the current literature o
 
 
 <div align="center">
-  <img src="assets/experiment.png" alt="Experimental Setup" width="600">
+  <img src="assets/experiment.png" alt="Experimental Setup" width="400">
 </div>
 **Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
 
