@@ -4,7 +4,7 @@ This article presents one of the pioneering attempts in the current literature o
 
 
 <div align="center">
-  <img src="assets/experiment.png" alt="Experimental Setup" width="350">
+  <img src="assets/experiment.png" alt="Experimental Setup" width="300">
 </div>
 **Figure 1:** The experimental setup used to collect event-based data for fault diagnosis.
 
@@ -29,7 +29,7 @@ cd Dynamic_vision/faultNet
 
 
 <div align="center">
-  <img src="assets/network_architecture.png" alt="Network Architecture" width="500">
+  <img src="assets/network_architecture.png" alt="Network Architecture" width="700">
 </div>
 **Figure 2:** The network architecture designed for classifying fault types
 
